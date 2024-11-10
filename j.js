@@ -27,3 +27,32 @@ let num3 = 12;
 let totalz = num3 + num2 
 let total2 = num2 - num3
 let total = num2 - num1
+
+// Task 3: Perform arithmetic operations using the variables declared in Task 1.
+let difference = num1 - num2;
+let quotient = num1 / num2;
+let product = num1 * num2;
+let sum = num1 + num2;
+// Perform arithmetic operations with console.log() statements.
+console.log(sum);
+console.log(quotient);
+console.log(product);
+console.log(difference);
+
+// Task 4: Explore assignment operators and update the values of variables.
+
+console.log("Updatednum1:", num1 += 5);
+console.log("Updatednum2:", num2 -= 5);
+
+// Task 5: Use comparison operators to compare the values of variables.
+
+console.log(num1 == num2);
+console.log(num1 > num2);
+console.log(num1 != num2);
+
+// Task 6: Apply logical operators to combine conditions and display the results.
+
+let isPositive = num1 > 0 && num2 > 0;
+console.log("Are both numbers positive?", isPositive);
+let isEVEN = num1 % 2 == 0 || num2 % 2 == 0;
+console.log("Is at least one number even?", isEVEN);
